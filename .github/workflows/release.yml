@@ -1,9 +1,8 @@
 name: Release from tag
 
 on:
-  push:
-    tags:
-      - "*"
+  tags:
+    - "*"
 
 jobs:
   publish:
